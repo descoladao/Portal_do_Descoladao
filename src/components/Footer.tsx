@@ -32,12 +32,6 @@ export default function Footer() {
                 Home
               </Link>
               <Link
-                to="/sobre"
-                className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
-                Sobre
-              </Link>
-              <Link
                 to="/suporte"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
               >

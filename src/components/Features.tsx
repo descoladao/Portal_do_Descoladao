@@ -43,13 +43,13 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 md:py-32">
+    <section id="beneficios" className="py-20 md:py-32 bg-card">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-card-foreground">
             Por que escolher o Descoladão?
           </h2>
-          <p className="max-w-[700px] text-muted-foreground md:text-xl">
+          <p className="max-w-[700px] text-gray-600 md:text-xl">
             Descubra as funcionalidades que tornam o Descoladão a escolha perfeita
             para milhares de usuários.
           </p>
@@ -64,10 +64,10 @@ export default function Features() {
                   <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-xl">{feature.title}</CardTitle>
+                  <CardTitle className="text-xl text-gray-900">{feature.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">{feature.description}</p>
+                  <p className="text-gray-600">{feature.description}</p>
                 </CardContent>
               </Card>
             )
