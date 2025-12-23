@@ -38,35 +38,16 @@ export default function Hero() {
 
           {/* Imagem do Cartão */}
           <div className="relative flex justify-center items-center">
-            <div className="relative w-full max-w-md aspect-[1.586/1] bg-gradient-to-br from-primary via-primary/80 to-secondary rounded-3xl shadow-2xl p-8 transform hover:scale-105 transition-transform duration-300">
-              {/* Detalhes do cartão */}
-              <div className="h-full flex flex-col justify-between">
-                <div className="flex justify-between items-start">
-                  <img
-                    src="/images/logo.webp"
-                    alt="Descoladão"
-                    className="h-12 md:h-16 w-auto drop-shadow-lg"
-                  />
-                  <div className="w-12 h-8 bg-secondary/30 rounded backdrop-blur-sm"></div>
-                </div>
-
-                <div className="space-y-4">
-                  <div className="flex gap-2">
-                    <div className="w-12 h-8 bg-background/20 rounded backdrop-blur-sm"></div>
-                    <div className="w-12 h-8 bg-background/20 rounded backdrop-blur-sm"></div>
-                    <div className="w-12 h-8 bg-background/20 rounded backdrop-blur-sm"></div>
-                    <div className="w-12 h-8 bg-background/20 rounded backdrop-blur-sm"></div>
-                  </div>
-
-                  <div className="flex justify-between items-end">
-                    <div className="text-left">
-                      <p className="text-xs text-background/70 uppercase tracking-wider">Nome</p>
-                      <p className="text-sm md:text-base font-bold text-background">Clube Descoladão</p>
-                    </div>
-                    <div className="text-xs text-background/70">
-                      <p>MEMBRO</p>
-                    </div>
-                  </div>
+            <div className="relative w-full max-w-md transform hover:scale-105 transition-transform duration-300">
+              <img
+                src="/images/cartao-descoladao.png"
+                alt="Cartão Clube Descoladão"
+                className="w-full h-auto rounded-3xl shadow-2xl"
+              />
+              {/* Overlay para substituir o nome */}
+              <div className="absolute bottom-[18%] left-[10%] right-[35%]">
+                <div className="bg-[rgb(88,45,150)] px-2 py-1 rounded">
+                  <p className="text-white text-sm md:text-base font-bold tracking-wide">NOME DO CLIENTE</p>
                 </div>
               </div>
             </div>
