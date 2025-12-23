@@ -22,7 +22,7 @@ const features = [
   {
     icon: Users,
     title: 'Conecte-se',
-    description: 'Interaja com amigos, compartilhe momentos e construa sua rede de forma simples.',
+    description: 'Interaja com amigos, indicando o aplicativo e ganhando diversos benefícios.',
   },
   {
     icon: Smartphone,
@@ -32,7 +32,7 @@ const features = [
   {
     icon: Star,
     title: 'Recursos Premium',
-    description: 'Acesso a funcionalidades exclusivas que fazem toda a diferença no seu dia a dia.',
+    description: 'Acesso a funcionalidades exclusivas que fazem toda a diferença na hora de economizar.',
   },
   {
     icon: TrendingUp,

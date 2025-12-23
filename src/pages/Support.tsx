@@ -32,10 +32,10 @@ export default function Support() {
                     Envie um email para nossa equipe
                   </p>
                   <a
-                    href="mailto:contato@descoladao.com"
+                    href="mailto:suporteclubedescoladao@gmail.com"
                     className="text-sm text-primary hover:underline"
                   >
-                    contato@descoladao.com
+                    suporteclubedescoladao@gmail.com
                   </a>
                 </div>
               </div>

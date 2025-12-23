@@ -18,11 +18,11 @@ export default function AppInfo() {
           {/* Imagem/Screenshot */}
           <div className="order-2 lg:order-1">
             <div className="relative aspect-[9/16] max-w-sm mx-auto rounded-3xl border-8 border-foreground/10 bg-muted shadow-2xl overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-center text-muted-foreground px-4">
-                  [Screenshot do app<br />em uso]
-                </p>
-              </div>
+              <img
+                src="/images/screenshot-app.jpg"
+                alt="Descoladão App"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 

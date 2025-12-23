@@ -43,17 +43,6 @@ export default function Hero() {
               </a>
             </Button>
           </div>
-
-          {/* Placeholder para screenshot do app */}
-          <div className="mt-12 w-full max-w-5xl">
-            <div className="relative aspect-video rounded-xl border bg-muted/50 shadow-2xl overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-muted-foreground">
-                  [Adicione aqui screenshots ou vídeo do aplicativo]
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
