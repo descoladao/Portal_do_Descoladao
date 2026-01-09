@@ -99,12 +99,12 @@ export default function Footer() {
             &copy; {currentYear} Descoladão. Todos os direitos reservados.
           </p>
           <div className="flex space-x-4 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">
+            <Link to="/politica-de-privacidade" className="hover:text-primary transition-colors">
               Política de Privacidade
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
+            </Link>
+            <Link to="/termos-de-uso" className="hover:text-primary transition-colors">
               Termos de Uso
-            </a>
+            </Link>
           </div>
         </div>
       </div>

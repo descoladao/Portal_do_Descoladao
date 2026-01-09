@@ -17,6 +17,8 @@ export default function Header() {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/suporte', label: 'Suporte' },
+    { path: '/termos-de-uso', label: 'Termos de Uso' },
+    { path: '/politica-de-privacidade', label: 'Política de Privacidade' },
   ]
 
   const isActive = (path: string) => location.pathname === path
