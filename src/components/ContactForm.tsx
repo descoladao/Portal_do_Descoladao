@@ -30,18 +30,10 @@ export default function ContactForm() {
     setSubmitStatus('idle')
 
     try {
-      // Configuração EmailJS - IMPORTANTE: Substituir com suas credenciais
-      // Crie uma conta em emailjs.com e configure:
-      // 1. Service (Gmail, Outlook, etc)
-      // 2. Template de email
-      // 3. Obtenha as credenciais abaixo
+      const serviceId = 'YOUR_SERVICE_ID'
+      const templateId = 'YOUR_TEMPLATE_ID'
+      const publicKey = 'YOUR_PUBLIC_KEY'
 
-      const serviceId = 'YOUR_SERVICE_ID' // Substituir
-      const templateId = 'YOUR_TEMPLATE_ID' // Substituir
-      const publicKey = 'YOUR_PUBLIC_KEY' // Substituir
-
-      // Template variables para EmailJS:
-      // {{from_name}}, {{from_email}}, {{subject}}, {{message}}
       await emailjs.send(
         serviceId,
         templateId,
@@ -74,7 +66,6 @@ export default function ContactForm() {
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Nome */}
           <div className="space-y-2">
             <Label htmlFor="name">Nome Completo *</Label>
             <Input
@@ -90,7 +81,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Email */}
           <div className="space-y-2">
             <Label htmlFor="email">Email *</Label>
             <Input
@@ -106,7 +96,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Assunto */}
           <div className="space-y-2">
             <Label htmlFor="subject">Assunto *</Label>
             <Select
@@ -129,7 +118,6 @@ export default function ContactForm() {
             </Select>
           </div>
 
-          {/* Mensagem */}
           <div className="space-y-2">
             <Label htmlFor="message">Mensagem *</Label>
             <Textarea
@@ -145,7 +133,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Status Messages */}
           {submitStatus === 'success' && (
             <div className="flex items-center gap-2 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
               <CheckCircle2 className="h-5 w-5" />
@@ -164,7 +151,6 @@ export default function ContactForm() {
             </div>
           )}
 
-          {/* Submit Button */}
           <Button type="submit" className="w-full" disabled={isSubmitting}>
             {isSubmitting ? (
               <>

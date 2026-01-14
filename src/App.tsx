@@ -6,6 +6,7 @@ import Support from './pages/Support'
 import NotFound from './pages/NotFound'
 import TermsOfUse from './pages/TermsOfUse'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import Download from './pages/Download'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/suporte" element={<Support />} />
             <Route path="/termos-de-uso" element={<TermsOfUse />} />
             <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
+            <Route path="/baixar" element={<Download />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

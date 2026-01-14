@@ -15,7 +15,6 @@ export default function AppInfo() {
     <section id="download" className="py-20 md:py-32 bg-muted/50">
       <div className="container px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
-          {/* Imagem/Screenshot */}
           <div className="order-2 lg:order-1">
             <div className="relative aspect-[9/16] max-w-sm mx-auto rounded-3xl border-8 border-foreground/10 bg-muted shadow-2xl overflow-hidden">
               <img
@@ -26,7 +25,6 @@ export default function AppInfo() {
             </div>
           </div>
 
-          {/* Conteúdo */}
           <div className="order-1 lg:order-2 space-y-6">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

@@ -4,13 +4,11 @@ import { QRCodeSVG } from 'qrcode.react'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-background py-16 md:py-24">
-      {/* Círculos decorativos */}
       <div className="absolute top-10 right-10 w-32 h-32 rounded-full bg-secondary/20 blur-3xl"></div>
       <div className="absolute bottom-10 left-10 w-40 h-40 rounded-full bg-primary/20 blur-3xl"></div>
 
       <div className="container px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Conteúdo Texto */}
           <div className="space-y-6 text-left">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
               Economize com o
@@ -37,7 +35,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Imagem do Cartão */}
           <div className="relative flex justify-center items-center">
             <div className="relative w-full max-w-md transform hover:scale-105 transition-transform duration-300">
               <img
@@ -45,7 +42,6 @@ export default function Hero() {
                 alt="Cartão Clube Descoladão"
                 className="w-full h-auto rounded-3xl shadow-2xl"
               />
-              {/* QR Code Overlay */}
               <div className="absolute top-[33%] left-1/2 transform -translate-x-1/2 bg-white p-1 rounded shadow-md">
                 <QRCodeSVG
                   value="https://play.google.com/store/apps/details?id=com.idevilson.descoladao"

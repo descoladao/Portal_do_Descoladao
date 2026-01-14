@@ -6,7 +6,6 @@ import {
 } from './ui/accordion'
 
 const faqs = [
-  // Sobre Assinatura
   {
     category: 'Sobre Assinatura',
     question: 'O que é o Descoladão?',
@@ -43,7 +42,6 @@ const faqs = [
     answer:
       'Não. Cada assinatura é pessoal e intransferível. Compartilhar seu login viola nossos termos e pode resultar em bloqueio de conta.',
   },
-  // Sobre Pagamento
   {
     category: 'Sobre Pagamento',
     question: 'Quais formas de pagamento são aceitas?',
@@ -68,7 +66,6 @@ const faqs = [
     answer:
       'No ato da assinatura, insira o código do cupom antes de finalizar o pagamento. Ele pode liberar descontos extras ou acesso a sorteios.',
   },
-  // Sobre Benefícios e Descontos
   {
     category: 'Sobre Benefícios e Descontos',
     question: 'Como uso meu desconto em um estabelecimento parceiro?',
@@ -99,7 +96,6 @@ const faqs = [
     answer:
       'Depende do plano escolhido. Confira em Benefícios a lista completa de serviços que podem estar disponíveis para o seu nível de assinatura.',
   },
-  // Suporte e Atendimento
   {
     category: 'Suporte e Atendimento',
     question: 'Como entro em contato com o suporte?',

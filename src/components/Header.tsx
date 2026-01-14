@@ -26,7 +26,6 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-        {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
             src="/images/logo.webp"
@@ -35,7 +34,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
             <Link
@@ -51,11 +49,10 @@ export default function Header() {
             </Link>
           ))}
           <Button asChild>
-            <a href="#download">Baixar App</a>
+            <Link to="/baixar">Baixar App</Link>
           </Button>
         </nav>
 
-        {/* Mobile Navigation */}
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon">
@@ -88,8 +85,8 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Button asChild className="w-full">
-                <a href="#download">Baixar App</a>
+              <Button asChild className="w-full" onClick={() => setIsOpen(false)}>
+                <Link to="/baixar">Baixar App</Link>
               </Button>
             </nav>
           </SheetContent>

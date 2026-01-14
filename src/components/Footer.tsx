@@ -9,7 +9,6 @@ export default function Footer() {
     <footer className="border-t bg-muted/50">
       <div className="container px-4 py-12 md:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          {/* Brand */}
           <div className="space-y-4">
             <img
               src="/images/logo.webp"
@@ -21,7 +20,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links Rápidos */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold">Links Rápidos</h3>
             <nav className="flex flex-col space-y-2">
@@ -40,7 +38,6 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Download */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold">Baixar App</h3>
             <div className="flex flex-col space-y-2">
@@ -67,7 +64,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Redes Sociais */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold">Redes Sociais</h3>
             <div className="flex space-x-4">
@@ -93,7 +89,6 @@ export default function Footer() {
 
         <Separator className="my-8" />
 
-        {/* Copyright */}
         <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
           <p className="text-sm text-muted-foreground">
             &copy; {currentYear} Descoladão. Todos os direitos reservados.
