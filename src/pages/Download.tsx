@@ -22,9 +22,9 @@ export default function Download() {
           <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-3 uppercase">
             Baixe o{' '}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              descoladão
+              Descoladão
             </span>
-            {' '}para android
+            {' '}no seu celular
           </h1>
           <p className="text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto">
             Sua nova forma de economizar e receber benefícios imperdíveis.
