@@ -42,7 +42,9 @@ export default function Footer() {
             <h3 className="text-sm font-semibold">Baixar App</h3>
             <div className="flex flex-col space-y-2">
               <a
-                href="#"
+                href="https://apps.apple.com/br/app/clube-de-descontos-descolad%C3%A3o/id6747364651"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <svg className="mr-2 h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
